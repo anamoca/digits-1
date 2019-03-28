@@ -7,7 +7,8 @@ Digits is an application that allows users to:
 * Create and manage a set of contacts
 * Add a set of timestamped notes regarding their conversation with each contact
 
-###Installation
+**Installation**
+
 First, would you so kindly [install Meteor](https://www.meteor.com/install).
 
 Second, [download a copy of the application](https://github.com/japhet-ye/digits). 
@@ -47,33 +48,37 @@ to install the required libraries via:
  credentials of default accounts in the settings.development.json file in the config 
  directory.
  
- ###User Interface Walkthrough
- ####Landing Page
+#User Interface Walkthrough
+ **Landing Page**
+ 
  When you first reach the application, you are greeted with the Landing Page of Digits,
  which provides a brief overview of the application and it's capabilities
  
  <img src="doc/landingp.PNG"> 
  
- ####Register
+ **Register**
+ 
  If you do not have an account, you can register for one by clicking the "Login" button 
  on the top right of the screen, then pressing "Sign Up" from the drop down menu.
  
   <img src="doc/signup.PNG">
 
-####Sign in
+**Sign in**
 If you already have an account, you will go to the Login page via the "Login" button on
 the top right of the screen. The link will take you to this page where you can
 enter your credentials to login:
 
  <img src="doc/login.PNG">
 
-####User home page
+**User home page**
+
 After logging in. You are taken to the home page with two new tabs available to you.
 The "Add Contact" and "List Contacts" tabs are located in the Navbar:
 
 <img src="doc/user-homepage.PNG">
 
-####List Contacts
+**List Contacts**
+
 This tab allows you to see all the contacts associated with the logged in user:
 
  <img src="doc/list-contacts.PNG">
@@ -83,13 +88,15 @@ contact. Example:
 
  <img src="doc/adding-notes.PNG">
  
- ####Edit Contacts
+**Edit Contacts**
+
 From the List Contacts page, you can click the "Edit" associated with the contact to edit 
 information about the contact: 
  
  <img src="doc/editcontacts.PNG">
  
- ####Admin Mode
+**Admin Mode**
+
 Admins have the POWER to see all the contacts for all of the users via the special 
 "Admin" button in the Navbar. It is possible to add more admins through the
 settings.development.json file and modifying the users method.
